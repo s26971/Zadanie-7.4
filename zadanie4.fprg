@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="s27556"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-30 09:12:53 AM"/>
+        <attribute name="created" value="czI3NTU2O0xBQjExMVctMTA7MjAyMi0xMC0yNDswODo0ODowMCBBTTsyMjI1"/>
+        <attribute name="edited" value="czI3NTU2O0xBQjExMVctMTA7MjAyMi0xMC0yNDswOToxNzowMyBBTTs0OzIzMzY="/>
+        <attribute name="edited" value="Tmlrb2RlbTtTVEFDSk9OQVJOWTsyMDIyLTEwLTMwOzA5OjEyOjUzIEFNOzE7MjkyMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, n, nplus1, i, z" type="Integer" array="False" size=""/>
+            <input variable="x"/>
+            <input variable="n"/>
+            <assign variable="nplus1" expression="0"/>
+            <for variable="i" start="1" end="n" direction="inc" step="1">
+                <input variable="z"/>
+                <assign variable="nplus1" expression="nplus1+(10-z)"/>
+            </for>
+            <output expression="nplus1+10" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
